@@ -1,0 +1,77 @@
+.fixed-nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 299;
+}
+.navbar {
+  position: relative;
+}
+
+.icon-warp {
+  position: absolute;
+  display: flex;
+  height: 32px;
+  top: 24px;
+  left: 8px;
+  transform: translateY(-50%);
+  border-radius: 16px;
+}
+.back-icon,
+.home-icon {
+  position: relative;
+  width: 32px;
+  padding: 6px 0;
+  height: 100%;
+  transform: scale(1);
+  border-radius: 16px;
+  border: 1px solid rgba(151, 151, 151, 0.2);
+  transition: transform 0.2s;
+  margin-right: 4px;
+}
+.back-icon:active,
+.home-icon:active {
+  transform: scale(1.1);
+}
+
+.home-icon {
+  text-align: right;
+}
+.back-icon image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 16px;
+  height: 16px;
+  margin: 0 auto;
+}
+.home-icon image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 16px;
+  height: 16px;
+  margin: 0 auto;
+}
+.nav-title,
+.nav-icon {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  font-size: 0;
+  font-weight: bold;
+}
+
+.nav-icon {
+  width: 47.733333%;
+  height: 72.7272%;
+}
+
+.nav-icon image {
+  width: 100%;
+  height: 100%;
+}

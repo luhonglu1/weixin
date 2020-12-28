@@ -1,0 +1,40 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "enablePullDownRefresh": true
+      }
+    }
+  ],
+  "subPackages": [
+    {
+      "root": "pagesA",
+      "pages": []
+    }
+  ],
+  "preloadRule": {},
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "globalStyle": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "厂销宝",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom",
+    "usingComponents": {
+      "nav-bar": "/wxcomponents/navBar/navBar",
+      "i-icon": "/wxcomponents/iview/icon/index",
+      "i-action-sheet": "/wxcomponents/iview/action-sheet/index",
+      "i-button": "/wxcomponents/iview/button/index",
+      "i-toast": "/wxcomponents/iview/toast/index",
+      "i-message": "/wxcomponents/iview/message/index",
+      "i-modal": "/wxcomponents/iview/modal/index",
+      "i-load-more": "/wxcomponents/iview/load-more/index",
+      "poster": "/wxcomponents/miniprogram_dist/poster/index"
+    }
+  }
+}
