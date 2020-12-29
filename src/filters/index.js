@@ -292,3 +292,11 @@ export const moneyFixed = (val, digits = 0) => {
   returnArr[0] = tempArr.join("");
   return returnArr.join(".");
 };
+
+// 距离米转千米
+export const transRice = (num)=>{
+  let rice = num - 0
+  if(isNaN(rice)) return '0km'
+  if(rice < 100) return '0km'
+  return (rice / 1000 ).toFixed(1) + 'km'
+}

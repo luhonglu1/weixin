@@ -1,9 +1,10 @@
 {
   "name": "changxiaobao",
   "version": "0.0.1",
-  "version_bd": "0.0.0.1",
   "private": true,
   "scripts": {
+    "serve": "node ./serve.js",
+    "ci": "node ./ci/ci.js",
     "dev:h5": "cross-env NODE_ENV=development UNI_PLATFORM=h5 vue-cli-service uni-serve",
     "dev:mp-weixin": "cross-env NODE_ENV=development UNI_PLATFORM=mp-weixin vue-cli-service uni-build --watch --minimize",
     "build:mp-weixin": "cross-env NODE_ENV=production UNI_PLATFORM=mp-weixin vue-cli-service uni-build --minimize",

@@ -5,6 +5,39 @@
       "style": {
         "enablePullDownRefresh": true
       }
+    },
+    {
+      "path": "pages/index/profile",
+      "style": {
+      }
+    },
+    {
+      "path": "pages/product/index",
+      "style": {
+      }
+    },
+    {
+      "path": "pages/product/detail",
+      "style": {
+      }
+    },
+    {
+      "path": "pages/buy/index",
+      "style": {
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/buy/supList",
+      "style": {
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/cooperation/index",
+      "style": {
+        "enablePullDownRefresh": true
+      }
     }
   ],
   "subPackages": [
@@ -22,7 +55,7 @@
   "globalStyle": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "厂销宝",
+    "navigationBarTitleText": "明丽肴",
     "navigationBarTextStyle": "black",
     "navigationStyle": "custom",
     "usingComponents": {
@@ -36,5 +69,35 @@
       "i-load-more": "/wxcomponents/iview/load-more/index",
       "poster": "/wxcomponents/miniprogram_dist/poster/index"
     }
+  },
+  "tabBar": {
+    "color": "#919191",
+    "selectedColor": "#01479E",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/imgs/nav/nav_home.png",
+        "selectedIconPath": "static/imgs/nav/nav_home_actived.png"
+      },
+      {
+        "pagePath": "pages/product/index",
+        "text": "产品",
+        "iconPath": "static/imgs/nav/nav_product.png",
+        "selectedIconPath": "static/imgs/nav/nav_product_actived.png"
+      },
+      {
+        "pagePath": "pages/buy/index",
+        "text": "购买",
+        "iconPath": "static/imgs/nav/nav_buy.png",
+        "selectedIconPath": "static/imgs/nav/nav_buy_actived.png"
+      },
+      {
+        "pagePath": "pages/cooperation/index",
+        "text": "合作",
+        "iconPath": "static/imgs/nav/nav_cooperation.png",
+        "selectedIconPath": "static/imgs/nav/nav_cooperation_actived.png"
+      }
+    ]
   }
 }

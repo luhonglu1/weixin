@@ -2,7 +2,12 @@
 
 ## Project setup
 ```
-yarn install
+yarn
+```
+
+### 配置
+```
+配置 src/manifest.json 中的appid 
 ```
 
 ### 本地开发预览

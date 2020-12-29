@@ -58,10 +58,16 @@ export default {
       : 48 + sysinfo.statusBarHeight;
     wx.setStorageSync("navHeight", navHeight);
     wx.setStorageSync("windowHeight", sysinfo.windowHeight);
+    wx.setStorageSync("screenWidth", sysinfo.screenWidth);
   },
 };
 </script>
 
 <style lang="less">
 @import url("./styles/common.less");
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 </style>

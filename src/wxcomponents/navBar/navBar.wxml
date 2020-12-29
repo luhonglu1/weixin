@@ -10,7 +10,7 @@
                     <image src='{{white ? homeIcon.white : homeIcon.default}}'></image>
                 </view>
             </view>
-            <view class='nav-icon' wx:if="{{titleImg}}" bindtap="titleTap">
+            <view class='nav-icon' wx:if="{{titleImg}}" bindtap="titleTap" style='{{iconStyle}}'>
                 <image src='{{titleImg}}'></image>
             </view>
             <view class='nav-title' wx:if="{{titleText && !titleImg}}">
